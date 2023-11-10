@@ -14,6 +14,6 @@ const bikemanagmentSchema = new Schema({
   timestamps: true,
 });
 
-const BikeManagment = mongoose.model('BikeManagment', bikemanagmentSchema);
+const BikeManagment = mongoose.model('Bike', bikemanagmentSchema);
 
 module.exports = BikeManagment;
